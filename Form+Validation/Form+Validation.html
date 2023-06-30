@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <style>
+    @counter-style;
+
+    .tarjeta {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      height: 350px;
+      border: 5px;
+      background-color: rgb(222, 174, 241);
+      font-family: Verdana;
+
+    }
+
+    .titulo {
+      font-size: 20px;
+      text-align: center;
+      background-color: rgb(229, 243, 105);
+    }
+
+    .cuerpo {
+      padding: 10px;
+      text-align: center;
+
+    }
+
+    .pie {
+
+      background: #b0eb45;
+      padding: 10px;
+      text-align: center;
+
+    }
+
+    .p {
+      font-family: Verdana;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    Planes de suscripción
+  </h1>
+  <div style="display: flex;">
+    <div class="tarjeta">
+      <div class="titulo">Plan Cobre</div>
+      <div class="mono">
+        <img src="img/mono.jpeg" style="width: 100%;">
+      </div>
+      <div class="pie">
+        <p>Incluye:</p>
+        <li>
+          Algo:...
+        </li>
+        <li>
+          Algo2:...
+        </li>
+        <li>
+          Algo3:...
+        </li>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <div class="titulo">Plan Plata</div>
+      <div class="mono">
+        <img src="img/elefante.jpeg" style="width: 100%;">
+      </div>
+      <div class="pie">
+        <p>Incluye:</p>
+        <li>
+          Algo:...
+        </li>
+        <li>
+          Algo2:...
+        </li>
+        <li>
+          Algo3:...
+        </li>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <div class="titulo">Plan Oro</div>
+      <div class="mono">
+        <img src="img/tigre.jpeg" style="width: 100%;">
+      </div>
+      <div class="pie">
+        <p>Incluye:</p>
+        <li>
+          Algo:...
+        </li>
+        <li>
+          Algo2:...
+        </li>
+        <li>
+          Algo3:...
+        </li>
+      </div>
+    </div>
+  </div>
+</body>
+<br>
+<br>
+<br>
+<p>Rellena con tus datos Personales:</p>
+<form action="/my-handling-form-page" method="post">
+  <ul>
+    <li>
+      <label for="text">Correo electrónico</label>
+      <input type="email" id="user_email" name="text" />
+    </li>
+    <li>
+      <label for="text">Contraseña</label>
+      <input type="password" id="password" name="password" />
+    </li>
+    <li>
+      <label for="text">Nombre y apellidos</label>
+      <textarea type="name" name="user_name"></textarea>
+    </li>
+    <li>
+      <label for="text">Fecha de nacimiento</label>
+      <input type="date" id="date" name="date" />
+    </li>
+    <li>
+      <label for="text">Número de teléfono</label>
+      <input type="text" id="Número" name="Número" />
+    </li>
+    <a target="_blank" class="boton" href="Pago.html">Continuar</a>
+
+  </ul>
+</form>
+<br>
+<h4>Puntúa mi página</h4>
+<form method="get">
+  <input name="puntuacion" type="radio" value="1_estrella" />1 estrella
+  <input name="puntuacion" type="radio" value="2_estrellas" />2 estrellas
+  <input name="puntuacion" type="radio" value="3_estrellas" />3 estrellas
+  <input name="puntuacion" type="radio" value="4_estrellas" />4 estrellas
+  <input name="puntuacion" type="radio" value="5_estrellas" />5 estrellas
+</form>
+
+</html>
