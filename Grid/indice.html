@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-gap: 40px;
+            grid-template-columns: auto;
+            background-color: #fff;
+            color: #444;
+        }
+
+        .green {
+            background-color: #84e766;
+            grid-column: 1/3;
+            grid-row: 1;
+            height: 100px;
+        }
+
+        .blue {
+            background-color: #6866e7;
+            grid-column:  3 / span 2;
+            grid-row: row;
+            width: 225px;
+            height: 450px;
+        }
+
+        .yellow {
+            background-color: #e7e566;
+            grid-column: 1;
+            grid-row: 2;
+            width: 225px;
+            height: 225px;
+
+        }
+
+        .red {
+            background-color: #e76666;
+            grid-column: 2;
+            grid-row: 2;
+            width: 225px;
+            height: 225px;
+        }
+
+        .orange {
+            background-color: #e7a466;
+            grid-column: 1 / 4;
+            grid-row: 3;
+            width: 490px;
+            height: 100px;
+        }
+
+        .number1 {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .number2 {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .number3 {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .number4 {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .letterA {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .letterB {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .letterC {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+
+        .letterD {
+            background-color: #ffffff;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="box green">GREEN</div>
+        <div class="box yellow">YELLOW
+            <div class="box number1">1</div>
+            <div class="box number2">2</div>
+            <div class="box number3">3</div>
+            <div class="box number4">4</div>
+        </div>
+        <div class="box red">RED
+            <div class="box letterA">A</div>
+            <div class="box letterB">B</div>
+            <div class="box letterC">C</div>
+            <div class="box letterD">D</div>
+        </div>
+        <div class="box blue">BLUE</div>
+        <div class="box orange">ORANGE</div>
+
+    </div>
+</body>
+
+</html>

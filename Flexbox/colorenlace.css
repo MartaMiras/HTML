@@ -1,0 +1,55 @@
+@media (min-width: 200px){
+
+	.logo{
+		height: 50px;
+	}
+
+    .container {
+        display: flex;
+        background-color: rgb(171, 226, 98);
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+		text-align:center;
+    }
+
+    .submenu {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(80, 216, 137);
+        width: 150px;
+        height: 900px;
+        align-items: center;       
+    }   
+
+    
+    body {
+        min-height: 100vh;
+    }
+
+    .logo {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .secciones {
+        margin-top: 20px; 
+        margin-right: 20px;            
+    }
+
+    .secciones a {
+        color: #2b2b2b;
+    }
+
+    .secciones a:hover {
+        color: #2b2bb2;
+    }
+
+    .usuario {
+        background-color: beige;
+        border-radius: 10px;
+        width: 100px;
+    }
+}

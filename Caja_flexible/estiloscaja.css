@@ -1,0 +1,59 @@
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-grow: 4;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200vh;
+    width: 200%;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 177);
+    display: flex;
+    height: 200vh;
+    width: 1000%;
+}
+
+.red {
+    background-color: rgb(255, 177, 177);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200vh;
+    width: 1000%;
+}
+
+.green {
+    background-color: rgb(180, 255, 177);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200vh;
+    width: 900%;
+}
+
+.orange {
+    background-color: rgb(255, 219, 177);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200vh;
+    width: 2000%;
+}
+
+.blue {
+    background-color: rgb(177, 230, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200vh;
+    width: 700%;
+}

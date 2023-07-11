@@ -3,33 +3,33 @@
 
 <head>
     <meta name="viewport" content="navbar">
-    <style>
-        .barra_navegacion {
-            overflow: hidden;
-            background-color: #d6f569;
-        }
-
-        .barra_navegacion a {
-            float: left;
-            color: #000000;
-            text-align: center;
-            padding: 15px;
-            font-size: 20px;
-        }
-    </style>
+    <link href="estilosnav.css" rel="stylesheet" />
 </head>
 
 <body>
 
     <div class="barra_navegacion">
-        <a class="active" href="#home">Home</a>
-        <a href="#activities">Activities</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <div style="display: flex; align-items: center;" >
+        <a class="titulo" type="navbar">Navbar</a>
+        <a class="active" href="C:\Users\marta\OneDrive\Documentos\Ejercicios_HTML\Navbar\Navbar.html">Home</a>
+        <a href="-">Link</a>
+        <div><label for="Dropdown" style="right: 50px; color: aliceblue;">Dropdown</label>
+            <select name="options" id="options">
+                <option value="pagina1">Página 1</option>
+                <option value="pagina2">Página 2</option>
+                <option value="pagina3">Página 3</option>
+                <option value="pagina4">Página 4</option>
+            </select>
+        </div>
+    </div>
+        <div>
+            <input type="search" name="search" placeholder="search">
+            <input class="Buscar" type="submit" value="Buscar">
+        </div>
     </div>
 
-    <div style="padding-left:16px">
-        <h2 style="background-color: rgb(242, 253, 191);">Utilidades de usar una bicicleta</h2>
+    <div class="parrafo">
+        <h2>Utilidades de usar una bicicleta</h2>
         <h3>1. Previene enfermedades</h3>
         <p>Montar en bicicleta reduce el riesgo de infarto en más de un 50%, beneficia músculos y huesos, previene la
             diabetes y mejora la salud mental.</p>

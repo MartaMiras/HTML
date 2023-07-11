@@ -1,0 +1,32 @@
+        @counter-style;
+
+        .tarjeta {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 250px;
+            height: 350px;
+            border: 5px;
+            background-color: rgb(222, 174, 241);
+            font-family: Verdana;
+        }
+
+        .titulo {
+            font-size: 20px;
+            text-align: center;
+            background-color: rgb(229, 243, 105);
+        }
+
+        .cuerpo {
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .pie {
+
+            background: #b0eb45;
+            padding: 10px;
+            text-align: center;
+
+        }
