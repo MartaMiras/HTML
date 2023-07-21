@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+img {
+    float: right;
+
+}
+
+li {
+    display: inline
+}
+
+.png {
+    size: 50px;
+}
+
+
+footer {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: verdana;
+}
