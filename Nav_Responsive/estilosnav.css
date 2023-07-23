@@ -1,0 +1,34 @@
+.barra_navegacion {
+    overflow: hidden;
+    background-color: #200f6b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra_navegacion a {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.parrafo {
+
+    font-family: Verdana;
+}
+
+
+.Buscar:hover {
+    background: rgb(32, 211, 47);
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px){
+    #barra_navegacion{
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -3,6 +3,7 @@
 .calculadora {
   max-width: 300px;
   box-shadow: 1px 5px 5px rgb(211, 211, 211);
+  background-color: rgb(211, 211, 211);
 }
 
 .botones{
