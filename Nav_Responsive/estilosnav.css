@@ -1,7 +1,6 @@
 .barra_navegacion {
-    overflow: hidden;
     background-color: #200f6b;
-    display: flex;
+    height: 30px;
     align-items: center;
     justify-content: space-between;
 }
@@ -9,14 +8,13 @@
 .barra_navegacion a {
     color: #ffffff;
     text-align: center;
-
+    padding-right: 50px;
+    margin-top: 5px;
 }
 
 .parrafo {
-
     font-family: Verdana;
 }
-
 
 .Buscar:hover {
     background: rgb(32, 211, 47);
@@ -25,10 +23,22 @@
     
 }
 
+.menu{
+    margin-top: 5px;
+}
+
+.buscador{
+    position: absolute;
+    top: 13px;
+    left: 65%;
+}
+
 @media (max-width: 768px){
-    #barra_navegacion{
-        display: flex;
-        height: 50px;
-        width: 50px;
+    .barra_navegacion{
+        height: 30px;
+    }
+
+    .buscador{
+        display: none;
     }
 }

@@ -1,7 +1,7 @@
 
 
 .calculadora {
-  max-width: 300px;
+  max-width: 250px;
   box-shadow: 1px 5px 5px rgb(211, 211, 211);
   background-color: rgb(211, 211, 211);
 }
@@ -18,7 +18,7 @@
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   text-align: right;
-  width: 293px;
+  width: 245px;
   height: 40px;
 }
 
